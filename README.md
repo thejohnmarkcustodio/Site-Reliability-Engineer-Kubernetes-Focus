@@ -204,8 +204,6 @@ o	Ingress Rules: Verify the Ingress rules match the desired routing.
 o	TLS Configuration: Ensure TLS certificates are correctly configured.
 o	DNS Configuration: Verify DNS records point to the Ingress controller.
 
-### Section 3: Practical Knowledge
-
 ### 6. Persistent Volume Issues
 A pod is stuck in a `Pending` state because it cannot bind to a Persistent Volume (PV). Describe the process to:
 
@@ -244,6 +242,7 @@ Pods in the cluster are unable to resolve external DNS names. How would you:
   3. Ensure network policies or firewall rules are not blocking DNS traffic.
 
 ---
+## Section 3: Practical Knowledge
 
 ### 8. YAML Configuration
 Write a Kubernetes deployment manifest for a web application named `my-app` with the following requirements:
