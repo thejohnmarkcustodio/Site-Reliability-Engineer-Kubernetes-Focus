@@ -204,7 +204,7 @@ o	Ingress Rules: Verify the Ingress rules match the desired routing.
 o	TLS Configuration: Ensure TLS certificates are correctly configured.
 o	DNS Configuration: Verify DNS records point to the Ingress controller.
 
-## Practical Knowledge
+### Section 3: Practical Knowledge
 
 ### 6. Persistent Volume Issues
 A pod is stuck in a `Pending` state because it cannot bind to a Persistent Volume (PV). Describe the process to:
