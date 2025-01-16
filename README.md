@@ -193,11 +193,11 @@ An Ingress resource is defined, but traffic is not being routed correctly to the
 •	Identify and fix common misconfigurations.
 Answer:
 1.	Check the status of the Ingress resource:
-kubectl get ingress -n <namespace>
+`kubectl get ingress -n <namespace>`
 2.	Describe the Ingress resource to get more details:
-kubectl describe ingress <ingress-name> -n <namespace>
+`kubectl describe ingress <ingress-name> -n <namespace>`
 3.	Check the Ingress controller logs:
-kubectl logs -l app=nginx-ingress-controller -n <namespace>
+`kubectl logs -l app=nginx-ingress-controller -n <namespace>`
 4.	Common misconfigurations and resolutions:
 o	Backend Service: Ensure the backend service and endpoints are correctly defined.
 o	Ingress Rules: Verify the Ingress rules match the desired routing.
